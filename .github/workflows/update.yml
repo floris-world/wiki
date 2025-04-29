@@ -1,0 +1,34 @@
+name: Update Tree JSON
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/**'
+
+permissions:
+  contents: write
+
+
+jobs:
+  update-tree:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: install
+        run: sudo apt-get install tree
+
+      - name: edit
+        run: tree -J docs > assets/tree.json
+
+      - name: commit
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add assets/tree.json
+          git commit -m "Update assets/tree.json" || echo "No changes"
+          git push
