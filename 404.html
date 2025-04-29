@@ -1,0 +1,5 @@
+<script>
+    const title = decodeURIComponent(window.location.pathname.replace('/wiki/', ''));
+    sessionStorage.setItem('title', title);
+    window.location.replace('/wiki');
+</script>
