@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+	<title>플로레</title>
+	<link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="header">
+        <div id="top">
+            <a href="./">
+                <img src="imgs/플로레_로고.svg">
+                <img src="imgs/플로레_워드마크.svg">
+            </a>
+        </div>
+        <input id="input" spellcheck="false" onclick="search(this.value)" oninput="search(this.value)" onchange="setTimeout(() => {resultBox.innerHTML = '';}, 1)">
+        <div id="result"></div>
+    </div>
+	<div id="content" onclick="resultBox.innerHTML = '';"></div>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it-footnote/dist/markdown-it-footnote.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
