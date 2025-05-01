@@ -90,14 +90,14 @@ function sort(a,b,s){
 
 function getDate(){
     const months = [
-        ['Nymphel', 23], ['Violar', 23], ['Taraxa', 23], ['Trifolir', 22],
-        ['Heliath', 23], ['Anemiar', 23], ['Rosath', 23], ['Mahalel', 22],
-        ['Orchea', 23], ['Astere', 23], ['Iridia', 23], ['Belliar', 22],
-        ['Lilar', 23], ['Alchemir', 23], ['Convella', 23], ['Narciel', 23]
+        ['Nimvë', 23], ['Viora', 23], ['Taraku', 23], ['Triola', 22],
+        ['Helianu', 23], ['Anemir', 23], ['Rosair', 23], ['Mahira', 22],
+        ['Ranneth', 23], ['Astera', 23], ['Irelia', 23], ['Belora', 22],
+        ['Lioma', 23], ['Alkemia', 23], ['Ediva', 23], ['Narxë', 23]
     ];
     const today = new Date();
     const baseYear = today.getFullYear();
-    const year = baseYear - 1402;
+    const year = baseYear - 1038;
     
     const dayOfYear = Math.floor((today - new Date(baseYear, 0, 1)) / 86400000) + 1;
 
