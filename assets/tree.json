@@ -1,5 +1,6 @@
 [
   {"type":"directory","name":"docs","contents":[
+    {"type":"file","name":"나르치스 가문.md"},
     {"type":"file","name":"대문.md"},
     {"type":"file","name":"란 가문.md"},
     {"type":"file","name":"로사 가문.md"},
@@ -17,5 +18,5 @@
     {"type":"file","name":"플레뢰 왕국.md"}
   ]}
 ,
-  {"type":"report","directories":1,"files":15}
+  {"type":"report","directories":1,"files":16}
 ]
