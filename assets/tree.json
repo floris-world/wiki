@@ -3,6 +3,7 @@
     {"type":"file","name":"나르치스 가문.md"},
     {"type":"file","name":"대문.md"},
     {"type":"file","name":"란 가문.md"},
+    {"type":"file","name":"레니아교.md"},
     {"type":"file","name":"로사 가문.md"},
     {"type":"file","name":"리옴 가문.md"},
     {"type":"file","name":"밸리스 가문.md"},
@@ -26,5 +27,5 @@
     {"type":"file","name":"히비스커스 가문.md"}
   ]}
 ,
-  {"type":"report","directories":1,"files":24}
+  {"type":"report","directories":1,"files":25}
 ]
