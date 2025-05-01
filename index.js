@@ -37,7 +37,7 @@ async function setContent(){
             replacing = replacing.replace(tempVar, (m, p1) => tempVars[p1] || '');
         }
         
-        replacing = replacing.replace(func, (m, p1) => {return eval(p1);});
+        replacing = replacing.replace(func, (m, p1) => {return Function(p1);});
         console.log(`틀(파싱 전): ${replacing}`);
         
         replacing = md.render(replacing);
@@ -47,7 +47,7 @@ async function setContent(){
     }
     
     // functions
-    content = content.replace(func, (m, p1) => {return eval(p1);});
+    content = content.replace(func, (m, p1) => {return Function(p1);});
     
     content = md.render(content);
     
