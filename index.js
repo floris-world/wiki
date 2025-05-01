@@ -88,5 +88,30 @@ function sort(a,b,s){
     return 0;
 }
 
+function getDate(){
+    const months = [
+        ['Nymphel', 23], ['Violar', 23], ['Taraxa', 23], ['Trifolir', 22],
+        ['Heliath', 23], ['Anemiar', 23], ['Rosath', 23], ['Mahalel', 22],
+        ['Orchea', 23], ['Astere', 23], ['Iridia', 23], ['Belliar', 22],
+        ['Lilar', 23], ['Alchemir', 23], ['Convella', 23], ['Narciel', 23]
+    ];
+    const today = new Date();
+    const baseYear = today.getFullYear();
+    const year = baseYear - 1402;
+    
+    const dayOfYear = Math.floor((today - new Date(baseYear, 0, 1)) / 86400000) + 1;
+
+    let day = dayOfYear;
+    let monthIndex = 0;
+    for (; monthIndex < months.length; monthIndex++) {
+        if (day <= months[monthIndex][1]) break;
+        day -= months[monthIndex][1];
+    }
+    
+    const monthName = months[monthIndex][0];
+    
+    return `${year}년 ${monthName} ${day}일`;
+}
+
 setContent();
 setDocuments();
