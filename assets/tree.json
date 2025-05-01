@@ -4,6 +4,7 @@
     {"type":"file","name":"로사 가문.md"},
     {"type":"file","name":"리옴 가문.md"},
     {"type":"file","name":"클레 가문.md"},
+    {"type":"file","name":"타락사쿰  가문.md"},
     {"type":"file","name":"플레뢰 경제.md"},
     {"type":"file","name":"플레뢰 대륙.md"},
     {"type":"file","name":"플레뢰 세계관 설정서.md"},
@@ -12,5 +13,5 @@
     {"type":"file","name":"플레뢰 왕국.md"}
   ]}
 ,
-  {"type":"report","directories":1,"files":10}
+  {"type":"report","directories":1,"files":11}
 ]
