@@ -12,6 +12,7 @@
     {"type":"file","name":"아스타 가문.md"},
     {"type":"file","name":"알케밀라 가문.md"},
     {"type":"file","name":"에델바이스 가문.md"},
+    {"type":"file","name":"왕국령.md"},
     {"type":"file","name":"이리스 가문.md"},
     {"type":"file","name":"클레 가문.md"},
     {"type":"file","name":"타락사쿰  가문.md"},
@@ -25,5 +26,5 @@
     {"type":"file","name":"히비스커스 가문.md"}
   ]}
 ,
-  {"type":"report","directories":1,"files":23}
+  {"type":"report","directories":1,"files":24}
 ]
