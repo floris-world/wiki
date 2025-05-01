@@ -1,7 +1,7 @@
 const title = sessionStorage.getItem('title') || '대문';
 sessionStorage.removeItem('title');
 history.replaceState(null, '', `/wiki/${title}`);
-document.title = `${title} - 플로레`;
+document.title = `${title} - 플레뢰`;
 
 let content = '';
 let documents = [];
