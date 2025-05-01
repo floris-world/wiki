@@ -12,7 +12,9 @@ const tempVar = /<<([^<>]+)>>/;
 let tempVars = {};
 const func = /\$\{(.+?)\}/g;
 
-const md = window.markdownit({ html: true }).use(window.markdownitFootnote);
+const md = window.markdownit({ html: true })
+.use(window.markdownitFootnote)
+.use(window.markdownitMultimdTable, { headerless: true });
 
 async function setContent(){
     const response1 = await fetch(`https://raw.githubusercontent.com/floris-world/wiki/main/docs/${title}.md`);
