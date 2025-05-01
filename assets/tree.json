@@ -6,6 +6,7 @@
     {"type":"file","name":"로사 가문.md"},
     {"type":"file","name":"리옴 가문.md"},
     {"type":"file","name":"아네모네 가문.md"},
+    {"type":"file","name":"알케밀라 가문.md"},
     {"type":"file","name":"에델바이스 가문.md"},
     {"type":"file","name":"이리스 가문.md"},
     {"type":"file","name":"클레 가문.md"},
@@ -18,5 +19,5 @@
     {"type":"file","name":"플레뢰 왕국.md"}
   ]}
 ,
-  {"type":"report","directories":1,"files":16}
+  {"type":"report","directories":1,"files":17}
 ]
