@@ -3,8 +3,9 @@
     {"type":"file","name":"대문.md"},
     {"type":"file","name":"플레뢰 대륙.md"},
     {"type":"file","name":"플레뢰 세계관 설정서.md"},
+    {"type":"file","name":"플레뢰 연대기.md"},
     {"type":"file","name":"플레뢰 왕국.md"}
   ]}
 ,
-  {"type":"report","directories":1,"files":4}
+  {"type":"report","directories":1,"files":5}
 ]
